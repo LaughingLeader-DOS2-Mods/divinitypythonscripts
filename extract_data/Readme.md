@@ -1,9 +1,9 @@
 Extracts all game data paks in patch order.
 
-# Usage
+## Example Usage
 
 ```
-py extract_data.py -d "G:/Divinity Original Sin 2/DefEd/Data" -o "D:/Modding/DOS2DE/Extracted" -l "G:/Modding/DOS2DE/ConverterApp/divine.exe"
+py extract_data.py -d "C:/Games/Steam/steamapps/common/Divinity Original Sin 2" -o "C:/Modding/DOS2DE/Extracted" -l "C:/Modding/DOS2DE/ConverterApp/divine.exe"
 ```
 
 ## Commandline Parameters
@@ -20,5 +20,5 @@ These environmental variables will be used as default parameters (so you can omi
 
 | Name  | Description |
 | ------------- | ------------- |
-| DOS2_PATH | The base game directory (such as `Steam\steamapps\common\Divinity Original Sin 2`) |
+| DOS2_PATH | The base game directory (such as `Steam/steamapps/common/Divinity Original Sin 2`) |
 | LSLIB_PATH | The directory that has divine.exe. |
