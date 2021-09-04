@@ -6,6 +6,11 @@ Extracts all game data paks in patch order.
 py extract_data.py -d "C:/Games/Steam/steamapps/common/Divinity Original Sin 2" -o "C:/Modding/DOS2DE/Extracted" -l "C:/Modding/DOS2DE/ConverterApp/divine.exe"
 ```
 
+### Listing Parameters
+```
+py extract_data.py --help
+```
+
 ## Commandline Parameters
 
 | Short Arg  | Long Arg | Description |
