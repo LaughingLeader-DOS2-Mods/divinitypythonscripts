@@ -10,6 +10,19 @@ py extract_data.py -d "C:/Games/Steam/steamapps/common/Divinity Original Sin 2" 
 ```
 py extract_data.py --help
 ```
+```
+usage: extract_data.py [-h] [-d DATA] [-o OUTPUT] [-l DIVINE]
+
+Extract all game data paks in order.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  The game data directory, such as Divinity Original Sin 2\DefEd\Data
+  -o OUTPUT, --output OUTPUT
+                        The directory to extract files to.
+  -l DIVINE, --divine DIVINE
+                        The path to divine.exe.
+```
 
 ## Commandline Parameters
 
